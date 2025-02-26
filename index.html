@@ -27,10 +27,35 @@
       @theme {
         --color-clifford: #da373d;
       }
+
+      .font-manrope {
+        font-family: "Manrope", serif;
+      }
     </style>
   </head>
-  <body>
-    <header class=""></header>
+  <body class="font-manrope">
+    <header class="px-3 md:px-0 md:mt-16 md:ml-40 flex flex-col md:flex-row">
+      <div class="md:w-1/2 w-full mt-3 md:mt-0">
+        <h1 class="text-7xl mr-4 text-[#1C1C1C] font-extrabold">
+          It's good <br />
+          tea time at The Tea House
+        </h1>
+        <p class="py-7 pr-28">
+          Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+          Taste Buds.
+        </p>
+        <button
+          class="bg-linear-to-l from-[#FF0000] to-[#FF8938] py-[18px] px-5 rounded-2xl"
+        >
+          <span class="text-white mr-2"> Explore More</span>
+          <i class="fa-solid fa-arrow-trend-up text-white"></i>
+        </button>
+      </div>
+
+      <div class="border-2 my-2 md:py-0 border-dashed border-gray-300 md:mr-16">
+        <img src="./images/banner.png" alt="ice-tea in a container" />
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
